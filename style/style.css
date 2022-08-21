@@ -1,0 +1,96 @@
+/*
+ *   Style de la page d'accueil
+*/
+
+/* style du corps */
+body{
+    background-color: grey;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* style de la barre */
+#header{
+    background-color: wheat;
+    padding: 15px;
+    margin: 5px;
+}
+
+/* style du logo */ 
+#header #logo{
+    height: 90px;
+    width: 90px;
+}
+
+/* 
+    style des ligne de la navigation
+*/
+ul li{
+    display: inline;
+    margin-right: 7px;
+}
+
+/*
+    style du main 
+*/
+
+/* style de la class main */
+.main{
+    background-color: rgb(226, 226, 226);
+    padding: 20px; /* spacage pour les element a l'interieur*/
+    margin-top: 20px; /* ajouter un space en haut de main */
+}
+
+/* style de la liste des produits */
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* style de la card sur produit*/
+.card1{
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(204, 204, 204);
+}
+
+/* style de l'iamge du produit */
+.produit-img {
+    height: 75px;
+    width: 100%;
+}
+
+/* titre du produit */
+.card-body .card-title {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* deszcription du produit */
+.card-body .desc{
+    font-size: 11px;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* style du prix du produit */
+
+.card-body .price{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    color: darkgoldenrod;
+}
+
+/* style du bouton d'achat */
+.card-body .buy-btn{
+    background-color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+}
