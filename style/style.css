@@ -94,3 +94,15 @@ ul li{
     padding: 5px;
     color: white;
 }
+
+/*
+    îed de page
+*/
+
+footer{
+    position: absolute; 
+    bottom: 0; height: 150px; 
+    width: 100%; padding: 15px;
+    background-color: burlywood; 
+    color: white; font-size: 25px; 
+}

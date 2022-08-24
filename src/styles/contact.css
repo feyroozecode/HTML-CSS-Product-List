@@ -1,0 +1,40 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header h1{
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+.header a{
+    padding-top: 55px;
+    padding-right: 15px;
+}
+
+
+.main {
+    padding: 10px;;
+}
+
+footer{
+    width: 100%;
+    padding: 25px;
+    background-color: burlywood;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
